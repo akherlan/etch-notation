@@ -6,5 +6,5 @@
     </div>
     <p>{{ i18n "not.found" }}</p>
   </main>
-  <img src="{{ "img/404.png" | absURL }}" alt="not found" class="bottom-image">
+  <img src="{{ (resources.Get "img/404.png").RelPermalink }}" alt="not found" class="bottom-image">
 {{ end }}
