@@ -17,3 +17,8 @@ other = "January 2, 2006"
 
 [post.updated]
 other = "Updated January 2, 2006"
+
+# 404.html
+#
+[not.found]
+other = "Looks like you've followed a broken link."

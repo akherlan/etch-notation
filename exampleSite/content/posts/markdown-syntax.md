@@ -133,6 +133,10 @@ html
 1. First Sub-item
 2. Second Sub-item
 
+## Mark
+
+This is an example of {{< annotate class="circle" text="a target word" >}} in a sentence. It can also use {{< annotate underline "underlined text to emphasize" >}} important thoughts. The mark choice is depending on author's pleasure. The {{< annotate class="cross" text="cross mark" >}} is used as well as a {{< annotate strike strike-through>}} on texts to be excluded them while reading. Then, using {{< annotate "highlight" >}} annotation rather than basic <mark>`<mark>`</mark> HTML tag is cool.
+
 ## Other Elements — abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.

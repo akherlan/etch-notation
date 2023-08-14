@@ -1,0 +1,4 @@
+{{ $annotate := resources.Get "js/annotate.js" | js.Build | resources.Minify | resources.Fingerprint "sha512" }}
+
+<script type="text/javascript" src="{{ $annotate.Permalink }}" integrity="{{ $annotate.Data.Integrity }}"></script>
+

@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+  <span class="{{ if .Get "class" }}{{ .Get "class" }}{{ else }}highlight{{ end }}">
+    {{ .Get "text" }}
+  </span>
+{{ else }}
+  <span class="{{ if len .Params | eq 2 }}{{ .Get 0 }}{{ else }}highlight{{ end }}">
+    {{ if len .Params | eq 1 }}{{ .Get 0 }}{{ else }}{{ .Get 1 }}{{ end }}
+  </span>
+{{ end }}

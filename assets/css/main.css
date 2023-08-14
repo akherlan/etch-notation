@@ -273,6 +273,20 @@ main#content .footnotes {
     font-size: 0.9em;
 }
 
+main#content .bottom-image {
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    height: auto;
+    max-width: 250px;
+}
+
+/* the default color yellow for mark is going back on refresh */
+mark {
+    background-color: initial;
+    background-color: transparent!important;
+}
+
 footer#footer {
     font-size: 14px;
     font-size: 1.4rem;
