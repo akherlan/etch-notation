@@ -16,6 +16,7 @@ Etch ~~Notation~~ is a simple, responsive theme for [Hugo](https://gohugo.io) wi
 * No external dependencies, ~~no JavaScript~~, no web fonts.
 * **Using [rough-notation](https://github.com/rough-stuff/rough-notation) JavaScript for writing annotation.**
 * Internationalization friendly: use default English translations or create your own
+* **Support pagination, set from `config.toml`**
 
 Currently, the Etch Notation is still ugly in dark mode. It's hard to me to use similar color palette for notation for both light and dark theme. Plan to use Sepia color scheme instead.
 
