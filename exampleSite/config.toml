@@ -2,6 +2,7 @@ baseURL = "https://example.com"
 title = "Website Name"
 theme = "etch"
 languageCode = "en-US"
+paginate = 8
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true

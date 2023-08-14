@@ -273,6 +273,16 @@ main#content .footnotes {
     font-size: 0.9em;
 }
 
+#pagination {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#pagination .older {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
 footer#footer {
     font-size: 14px;
     font-size: 1.4rem;
