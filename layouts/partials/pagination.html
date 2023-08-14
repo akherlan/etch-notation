@@ -1,0 +1,17 @@
+{{ $paginator := .Paginator }}
+
+<div id="pagination">
+    <!-- Prev page -->
+    <div>
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}">{{ i18n "pagination.newer" }}</a>
+        {{ end }}
+    </div>
+
+    <!-- Next page -->
+    <div class="older">
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}">{{ i18n "pagination.older" }}</a>
+        {{ end }}
+    </div>
+</div>

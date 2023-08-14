@@ -1,6 +1,9 @@
 <h3>{{ i18n "posts.title" }}</h3>
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ $paginator := .Paginate $pages  }}
 <ul id="posts">
-{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $index, $pages := $paginator.Pages }}
     {{ .Render "li" }}
-{{- end }}
+{{ end }}
 </ul>
+{{ partial "pagination.html" . }}
