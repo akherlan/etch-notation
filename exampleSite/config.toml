@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 title = "Website Name"
-theme = "etch"
+theme = "etch-notation"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
