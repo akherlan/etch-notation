@@ -4,16 +4,16 @@ const annotate = RoughNotation.annotate;
 document.addEventListener("readystatechange", function(event) {
 if (event.target.readyState === "complete") {
 
-var darkred = '#e60006';
+var darkred =  '#d80015';
 var lightblue = '#e0f2fd';
-var yellow = '#ffe536';
+var yellow = '#fce49e';
 var penColor = darkred;
 var highlighterColor = yellow;
 
 var highlightTitle = document.querySelector("h2 a");
 var highlightHighlight = document.querySelectorAll("span.highlight, mark");
-var highlightUnderline = document.querySelectorAll(".underline");
-var highlightStrike = document.querySelectorAll(".strike");
+var highlightUnderline = document.querySelectorAll(".underline, ins");
+var highlightStrike = document.querySelectorAll(".strike, del");
 var highlightCross = document.querySelectorAll(".cross");
 var highlightCircle = document.querySelectorAll(".circle");
 

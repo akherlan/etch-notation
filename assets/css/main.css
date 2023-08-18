@@ -281,10 +281,14 @@ main#content .bottom-image {
     max-width: 250px;
 }
 
-/* the default color yellow for mark is going back on refresh */
 mark {
+    color: #394548;
     background-color: initial;
     background-color: transparent!important;
+}
+
+del, ins {
+    text-decoration: unset!important;
 }
 
 #pagination {

@@ -6,35 +6,35 @@ html {
 }
 
 body {
-    color: #ebebeb;
-    background: #121212;
+    color: #5f4b32;
+    background: #fbf0d9;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 header#banner a {
-    color: #e0e0e0;
+    color: #56442d;
     text-decoration: none;
 }
 
 header#banner nav ul li a {
-    color: #cccccc;
+    color: #56442d;
 }
 
 main#content a {
-    color: #00b1ed;
+    color: #6b8d67;
 }
 
 main#content p {
-    color: #f5f5f5;
+    color: #5f4b32;
 }
 
 main#content hr {
-    background: #5c5c5c;
+    background: #7f6f5b;
 }
 
 main#content #toc h4 {
-    color: #d4d4d4;
+    color: #6f5d47;
 }
 
 main#content ul#posts small {
@@ -42,11 +42,19 @@ main#content ul#posts small {
 }
 
 main#content ul#posts li a:hover {
-    color: #21c7ff;
+    color: #859f81;
 }
 
 main#content header#post-header div {
-    color: #a7a7a7;
+    color: #afa599;
+}
+
+main#content blockquote {
+    border-left: 3px solid #ecd1a8;
+}
+
+mark {
+    color: #5f4b32;
 }
 {{- if not (eq .Site.Params.dark "on") -}}
 }
