@@ -1,7 +1,8 @@
 import { RoughNotation } from './rough-notation';
 
 const annotate = RoughNotation.annotate;
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("readystatechange", function(event) {
+if (event.target.readyState === "complete") {
 
 var darkred = '#e60006';
 var lightblue = '#e0f2fd';
@@ -38,4 +39,5 @@ highlightCircle.forEach(function(item) {
   annotate(item, { type: 'circle', color: penColor, strokeWidth: 0.75, animate: false}).show();
 });
 
+}
 });
